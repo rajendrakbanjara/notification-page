@@ -1,0 +1,81 @@
+{ "profiles" :[
+    {
+        "read": false,
+        "name": "Mark Webber",
+        "action": "reacted to your recent post",
+        "secondary_text": "My first tournament today!",
+        "seconday_text_blue": "",
+        "time": "1m ago",
+        "src": "/assets/images/avatar-mark-webber.webp",
+        "src2" : "",
+        "msg": "Hello brother, this is Mark Webber"
+    },
+    {
+        "read": false,
+        "name": "Angela Gray",
+        "action": "followed you",
+        "secondary_text": "",
+        "seconday_text_blue": "",
+        "time": "5m ago",
+        "src": "/assets/images/avatar-angela-gray.webp",
+        "src2" : "",
+        "msg": ""
+    },
+    {
+        "read": false,
+        "name": "Jacob Thompson",
+        "action": "has joined your group",
+        "secondary_text": "",
+        "seconday_text_blue": "Chess Club",
+        "time": "1dayh ago",
+        "src":"/assets/images/avatar-jacob-thompson.webp",
+        "src2" : "",
+        "msg": ""
+    },
+    {
+        "read": false,
+        "name": "Rizky Hasanuddin",
+        "action": "followed you",
+        "secondary_text": "",
+        "seconday_text_blue": "",
+        "time": "5days ago",
+        "src" : "/assets/images/avatar-rizky-hasanuddin.webp",
+        "src2" : "",
+         "msg": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+    },
+    {
+        "read": false,
+        "name": "Kimberly Smith",
+        "action": "Commented on your picture",
+        "secondary_text": "",
+        "seconday_text_blue": "",
+        "time": "1 week ago",
+        "src" : "/assets/images/avatar-kimberly-Smith.webp",
+        "src2" : "/assets/images/image-chess.webp",
+        "msg": ""
+    },
+    {
+        "read": false,
+        "name": "Nathan Peterson",
+        "action": "reacted to your recent post",
+        "secondary_text": "5 end-game strategies to increase your win rate",
+        "seconday_text_blue": "",
+        "time": "2 weeks ago",
+        "src" : "/assets/images/avatar-nathan-peterson.webp",
+        "src2" : "",
+        "msg": ""
+
+    },
+    {
+        "read": false,
+        "name": "Anna Kim",
+        "action": "left the group",
+        "secondary_text": "",
+        "seconday_text_blue": "Chess Club",
+        "time": "2 weeks ago",
+        "src": "/assets/images/avatar-anna-kim.webp",
+        "src2" : "",
+        "msg": ""
+    }
+    
+]}
