@@ -2,14 +2,16 @@ import { useState } from "react";
 
 const Profile = (props) => {
   const [show, setShow] = useState(false);
-  const [color, setColor] = useState('bg-slate-100')
+  const [color, setColor] = useState("bg-slate-100");
   const open = () => {
     setShow(!show);
-    setColor('bg-none');
+    setColor("bg-none");
   };
   return (
     <div className="" onClick={open}>
-      <div className={`profile-1 my-2 flex items-center rounded-md ${color} py-2`}>
+      <div
+        className={`profile-1 my-2 flex items-center rounded-md ${color} py-2`}
+      >
         <img src={props.src} className="w-10 mx-5" alt="profile-pic" />
         <p>
           <span className="font-bold hover:text-blue-900">{props.name} </span>
@@ -17,7 +19,9 @@ const Profile = (props) => {
           <span className="font-bold text-gray-600 hover:text-blue-900">
             {props.secondary_text}
           </span>
-          <span className="font-bold text-blue-900">{props.seconday_text_blue}</span>
+          <span className="font-bold text-blue-900">
+            {props.seconday_text_blue}
+          </span>
           <br />
           <span className="text-gray-600">{props.time}</span>
         </p>
